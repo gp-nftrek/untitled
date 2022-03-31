@@ -11,5 +11,12 @@ public class Main {
         double f = 3.1415926;
         char g = 33;
         boolean h = false;
+float boxerOne = (float) 78.2;
+float boxerTwo = (float) 82.7;
+float boxers = boxerOne + boxerTwo;
+float diffBoxers = boxerTwo - boxerOne;
+System.out.println(boxers + " kg");
+        System.out.println(diffBoxers + " kg");
+
     }
 }
